@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/test" method="POST">
+    Name:<input type="text" name="name">
+    <br>
+    Age<input type="text" name="age">
+    <br>
+     Gender<input type="text" name="gender">
+    <br>
+     Symptoms<input type="text" name="symp">
+    <br>
+     <br>
+     Historical <input type="text" name="hist">
+    <br>
+     <br>
+     Liver Disease Test Order
+    <br>
+    <table border="1">
+
+        <tr>
+            <td>{{flist[0]}}</td>
+            <td>{{flist[1]}}</td>
+            <td>{{flist[2]}}</td>
+            <td>{{flist[3]}}</td>
+            <td>{{flist[4]}}</td>
+
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+</body>
+</html>
